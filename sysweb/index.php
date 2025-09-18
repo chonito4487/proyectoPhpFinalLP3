@@ -41,6 +41,12 @@
                         <h3><i class='icon fa fa-check-circle'></i>Sesión cerrada!</h3>
                         <p>Su sesión se ha cerrado correctamente.</p>
                         </div>";
+            } else if ($_GET['alert'] == 3) {
+                echo "<div class='alert alert-success' role='alert'>
+                        <button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;</button>
+                        <h3><i class='icon fa fa-check-circle'></i>Atención!</h3>
+                        <p>Debes ingresar un usuario y contraseña para usar las funciones del sistema.</p>
+                        </div>";
             }
             ?>
 
